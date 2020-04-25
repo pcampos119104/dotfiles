@@ -2,12 +2,12 @@
 Configurations for my Fedora desktop and other applications.
 
 ### Files ###
-* config - terminator config file, put on /home/USER/.config/terminator
-* pcampos.desktop - auto start fedora apps, put on /home/USER/.config/autostart
-* .bashrc - alias and function for bash.
+* use stow to install dotfiles
+* .bashrc - alias and function for bash. will bw replace by fish
 * mo - Mandalorian keyboard layout
+* ln -sf /path/to/file /path/to/symlink
 
-### Install ###
+### apps ###
 
 * Terminator
 * Google Chrome - Download from web.
@@ -17,20 +17,30 @@ Configurations for my Fedora desktop and other applications.
 * git
 * gitflow
 * unar
-* conda
 * ebook-converter(calibre)
 * youtube-dl
 * gnome-tweaks - to edit the touchpad
 * xclip
 * vim
+* nvim
+* stow
 * ranger
 * vlc(non-free)
 * Wifi driver - BCM43142
 
-### Change su password ###
+### steps ###
 $ sudo passwd root
+/# dnf update 
+/# dnf install terminator jq bat rtorrent git gitflow unar calibre youtube-dl gnome-tweaks xclip vim neovim stow ranger
+install vim-plug: https://github.com/junegunn/vim-plug
+open nvim and type :PlugInstall and :PlugUpdate
+
+# Mandalorian keyboard layout #
+/# ln -sf /home/pcampos/dotfiles/mo /usr/share/X11/xkb/symbols/mo 
+
 
 ### WIFI ###
+For sony VAIO:
 Put on cable
 $ sudo dnf update
 $ sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
@@ -38,7 +48,6 @@ $ sudo dnf update
 $ sudo dnf install kmod-wl
 
 ### By dnf ###
-/# dnf install terminator jq bat rtorrent git gitflow unar conda calibre youtube-dl gnome-tweaks xclip vim ranger
 
 For Terminator it's necessary the config file be on the /home/USER/.config/terminator/config
 

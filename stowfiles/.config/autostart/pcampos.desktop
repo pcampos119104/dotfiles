@@ -4,5 +4,5 @@
 [Desktop Entry]
 Type=Application
 Name=Terminator
-Exec=terminator -bf -l pveronezi -p pveronezi
+Exec=terminator -bf -l pcampos -p pcampos
 Comment=start terminator
