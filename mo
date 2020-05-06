@@ -31,7 +31,7 @@ xkb_symbols "basic" {
     key <AD08> {	[	  u,	U,parenright		]	};
     key <AD09> {	[	  i,	I,bracketleft		]	};
     key <AD10> {	[	  o,	O,bracketright		]	};
-    key <AD11> {	[	  p,	P,braceleft		]	};
+    key <AD11> {	[	  p,	P,braceleft			]	};
     key <AD12> {	[ equal, 	P,braceright	]};
 
     key <AC01> { 
@@ -47,7 +47,7 @@ xkb_symbols "basic" {
     key <AC08> {	[	  j,	J,    Down	,Down	]};
     key <AC09> {	[	  k,	K,    Up        ,Up	]};
     key <AC10> {	[	  l,	L,    Right	,Right	]};
-    key <AC11> {	[     colon, underscore,  minus,  asterisk	]};
+    key <AC11> {	[     colon,   minus, underscore,      asterisk	]};
     key <BKSL> {	[    ISO_Level3_Shift  ]};
 
     // key <LSGT> { [     Mode_switch,      Mode_switch,          Mode_switch,       Mode_switch] };
