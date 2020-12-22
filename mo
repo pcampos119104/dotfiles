@@ -27,12 +27,12 @@ xkb_symbols "basic" {
     key <AD04> {	[	  e,	E		]	};
     key <AD05> {	[	  r,	R		]	};
     key <AD06> {	[	  t,	T		]	};
-    key <AD07> {	[	  y,	Y,parenleft		]	};
-    key <AD08> {	[	  u,	U,parenright		]	};
-    key <AD09> {	[	  i,	I,bracketleft		]	};
-    key <AD10> {	[	  o,	O,bracketright		]	};
-    key <AD11> {	[	  p,	P,braceleft			]	};
-    key <AD12> {	[ equal, 	P,braceright	]};
+    key <AD07> {	[	  y,	Y,parenleft	]	};
+    key <AD08> {	[	  u,	U,parenright	]	};
+    key <AD09> {	[	  i,	I,bracketleft	]	};
+    key <AD10> {	[	  o,	O,bracketright	]	};
+    key <AD11> {	[	  p,	P,braceleft	]	};
+    key <AD12> {	[ equal, 	P,braceright	]	};
 
     key <AC01> { 
 	type[Group1]="ONE_LEVEL",    

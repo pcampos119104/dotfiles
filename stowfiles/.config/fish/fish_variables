@@ -2,7 +2,12 @@
 # VERSION: 3.0
 SETUVAR __fish_init_2_3_0:\x1d
 SETUVAR __fish_initialized:3100
+SETUVAR _fish_abbr_dckill:docker\x20container\x20kill\x20\x28docker\x20ps\x20\x2dq\x29
+SETUVAR _fish_abbr_dcup:docker\x2dcompose\x20up\x20\x2d\x2dbuild
 SETUVAR _fish_abbr_gc:git\x20commit\x20\x2dm
+SETUVAR _fish_abbr_localping:curl\x20127\x2e0\x2e0\x2e1\x3a8080/ping\x20\x7c\x20jq
+SETUVAR _fish_abbr_mng:python\x20\x24VIRTUAL_ENV/\x2e\x2e/manage\x2epy
+SETUVAR _fish_abbr_r:ranger
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:005fd7
@@ -26,7 +31,7 @@ SETUVAR fish_color_selection:white\x1e\x2d\x2dbold\x1e\x2d\x2dbackground\x3dbrbl
 SETUVAR fish_color_status:red
 SETUVAR fish_color_user:brgreen
 SETUVAR fish_color_valid_path:\x2d\x2dunderline
-SETUVAR fish_greeting:Welcome\x20to\x20fish\x2c\x20the\x20friendly\x20interactive\x20shell
+SETUVAR fish_greeting:Nobody\x20is\x20coming\x2c\x20you\x20are\x20alone\x20dragon\x2e
 SETUVAR fish_key_bindings:fish_default_key_bindings
 SETUVAR fish_pager_color_completion:\x1d
 SETUVAR fish_pager_color_description:B3A06D\x1eyellow
