@@ -1,0 +1,33 @@
+let mapleader = " "
+
+" Terminal
+nmap <leader>t :action ActivateTerminalToolWindow<cr>
+" Full Screen like <C> shift F12
+nmap <leader>q :action HideAllWindows<cr>
+" Alt + enter
+nmap <leader>i :action ShowIntentionActions<cr>
+" Paste from clipboard
+" nmap <leader>v :action EditorPaste<cr>
+nmap <leader>v :action EditorPasteSimple<cr>
+" Auto format file
+nmap <leader>l :action ReformatCode<cr>
+" Del arround block
+
+" Rename
+nmap <leader>r :action RemoteHostView.Rename<cr>
+" set relativenumber
+set relativenumber
+set number
+
+" Commit
+
+" Comment line
+
+" Goto Implementation
+nmap <leader>b :action GotoImplementation<cr>
+" Upercase word
+nmap <leader>u :action EditorToggleCase<cr>
+" Change tab
+
+
+set scrolloff=8
