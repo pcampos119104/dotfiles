@@ -1,8 +1,0 @@
-# It's necessary that the config file are updated on the 
-# /home/USER/.config/terminator/config
-
-[Desktop Entry]
-Type=Application
-Name=Terminator
-Exec=terminator -bf -l pcampos -p pcampos
-Comment=start terminator

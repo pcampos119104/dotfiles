@@ -1,1 +1,1 @@
-/home/pcampos/.local/share/omf/themes/bira/fish_prompt.fish
+/home/pcampos/.local/share/omf/themes/l/fish_prompt.fish
