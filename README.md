@@ -22,6 +22,13 @@ Configurations for my Manjaro desktop and other applications.
 * ranger
 * vlc(non-free)
 * gh(github-cli)
+* playonlinux
+* docker
+* docker-compose
+* pdfunite(concatenate pdf)
+* telegram
+* gcloud
+* pycharm pro
 
 # Mandalorian keyboard layout #
 /# ln -sf /home/pcampos/dotfiles/mo /usr/share/X11/xkb/symbols/mo 
@@ -31,8 +38,10 @@ https://ubuntu-mate.community/t/make-your-own-custom-keyboard-layout-for-linux/1
 ### steps ###
 first stow the files, clone the project in ~/home and execute the command in the dotfiles folder
 $ stow stowfiles
+Update pacman
+
 /# pacman -Syu
-/#pacman -Syu tilix jq bat rtorrent git calibre youtube-dl xclip neovim stow ranger github-cli
+/# pacman -Syu fish tilix jq bat rtorrent git calibre youtube-dl xclip neovim stow ranger github-cli
 
 for oh my fish, https://github.com/oh-my-fish/oh-my-fish
 $ curl -L https://get.oh-my.fish | fish
