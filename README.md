@@ -28,7 +28,10 @@ Configurations for my Manjaro desktop and other applications.
 * pdfunite(concatenate pdf)
 * telegram
 * gcloud
+* heroku 
 * pycharm pro
+* fish shell
+* oh-my-fish
 
 # Mandalorian keyboard layout #
 /# ln -sf /home/pcampos/dotfiles/mo /usr/share/X11/xkb/symbols/mo 

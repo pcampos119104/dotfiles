@@ -6,3 +6,4 @@ set -U fish_greeting 'Nobody is coming, you are alone dragon.'
 
 set -gx VISUAL nvim 
 set -gx EDITOR nvim 
+

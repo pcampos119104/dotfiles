@@ -21,12 +21,12 @@ xkb_symbols "basic" {
     key <AE11> {	[     minus,	underscore	]	};
     key <AE12> {	[     equal,	plus		]	};
 
-    key <AD01> {	[apostrophe,   quotedbl,  acute,   semicolon]	};
+    key <AD01> {	[     quotedbl, apostrophe,     acute,   semicolon]	};
     key <AD02> {	[	  q,	Q, question 		]	};
-    key <AD03> {	[	  w,	W		]	};
-    key <AD04> {	[	  e,	E		]	};
+    key <AD03> {	[	  w,	W, dollar		]	};
+    key <AD04> {	[	  e,	E, dead_acute, dead_grave		]	};
     key <AD05> {	[	  r,	R		]	};
-    key <AD06> {	[	  t,	T		]	};
+    key <AD06> {	[	  t,	T, exclam		]	};
     key <AD07> {	[	  y,	Y,parenleft	]	};
     key <AD08> {	[	  u,	U,parenright	]	};
     key <AD09> {	[	  i,	I,bracketleft	]	};
@@ -38,7 +38,7 @@ xkb_symbols "basic" {
 	type[Group1]="ONE_LEVEL",    
 	symbols[Group1] = [ ISO_Level3_Shift ]  };
     // key <AC01> {	[      equal,   question,   numbersign	]};
-    key <AC02> {	[	  a,	A 		]	};
+    key <AC02> {	[	  a,	A, dead_tilde 		]	};
     key <AC03> {	[	  s,	S		]	};
     key <AC04> {	[	  d,	D		]	};
     key <AC05> {	[	  f,	F		]	};
@@ -47,7 +47,7 @@ xkb_symbols "basic" {
     key <AC08> {	[	  j,	J,    Down	,Down	]};
     key <AC09> {	[	  k,	K,    Up        ,Up	]};
     key <AC10> {	[	  l,	L,    Right	,Right	]};
-    key <AC11> {	[     colon,   minus, underscore,      asterisk	]};
+    key <AC11> {	[     underscore,   minus, colon,      asterisk	]};
     key <BKSL> {	[    ISO_Level3_Shift  ]};
 
     // key <LSGT> { [     Mode_switch,      Mode_switch,          Mode_switch,       Mode_switch] };
@@ -55,12 +55,12 @@ xkb_symbols "basic" {
     //  type[Group1]="ONE_LEVEL",    
     //	symbols[Group1] = [ ISO_Level3_Shift ]  };
 
-    key <LSGT> {	[     slash,  backslash,     bar	]};
-    key <AB01> {	[apostrophe,   quotedbl,  acute,   semicolon]};
-    key <AB02> {	[	  z,	Z 		]	};
-    key <AB03> {	[	  x,	X		]	};
+    key <LSGT> {	[     quotedbl, apostrophe,   acute,   semicolon]};
+    key <AB01> {	[     slash,  backslash,     bar	]};
+    key <AB02> {	[	  z,	Z, dead_circumflex 		]	};
+    key <AB03> {	[	  x,	X, bar		]	};
     key <AB04> {	[         c,    C,  ccedilla,    Ccedilla]};
-    key <AB05> {	[	  v,	V		]	};
+    key <AB05> {	[	  v,	V, asterisk		]	};
     key <AB06> {	[	  b,	B		]	};
     key <AB07> {	[	  n,	N		]	};
     key <AB08> {	[	  m,	M		]	};
