@@ -9,7 +9,6 @@ Configurations for my Manjaro desktop and other applications.
 ### apps ###
 
 * tilix
-* Google Chrome - Download from web.
 * jq
 * bat
 * rtorrent
@@ -22,12 +21,12 @@ Configurations for my Manjaro desktop and other applications.
 * ranger
 * vlc(non-free)
 * gh(github-cli)
-* playonlinux
 * docker
 * docker-compose
 * pdfunite(concatenate pdf)
 * telegram
-* gcloud
+* slack
+* discord
 * heroku 
 * pycharm pro
 * fish shell
@@ -40,15 +39,17 @@ Configurations for my Manjaro desktop and other applications.
 
 # Mandalorian keyboard layout #
 /# ln -sf /home/pcampos/dotfiles/mo /usr/share/X11/xkb/symbols/mo 
-TODO Need update.
+TODO Need update. do better with sed command
 https://ubuntu-mate.community/t/make-your-own-custom-keyboard-layout-for-linux/19733
 
 ### steps ###
 first stow the files, clone the project in ~/home and execute the command in the dotfiles folder
 $ stow stowfiles
-Update pacman
 
+Update pacman
 /# pacman -Syu
+
+TODO update with all programs
 /# pacman -Syu fish tilix jq bat rtorrent git calibre youtube-dl xclip neovim stow ranger github-cli
 
 for oh my fish, https://github.com/oh-my-fish/oh-my-fish
@@ -58,9 +59,6 @@ For Docker
 /#pacman -Syu install docker docker-compose
 $ sudo usermod -aG docker $USER
 
-Skip for now
-install vim-plug: https://github.com/junegunn/vim-plug
-open nvim and type :PlugInstall and :PlugUpdate
 
 ### Config ###
 Config ssh for github:
