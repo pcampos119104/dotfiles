@@ -28,6 +28,7 @@ nmap <leader>8 :action GotoBookmark8<cr>
 nmap <leader>9 :action GotoBookmark9<cr>
 " Rename
 nmap <leader>r :action RemoteHostView.Rename<cr>
+
 " set relativenumber
 set relativenumber
 set number
@@ -48,5 +49,7 @@ nmap <leader>u :action EditorToggleCase<cr>
 
 " Change tab
 
+" Copy to clipboard
+set clipboard=unnamedplus
 
 set scrolloff=8

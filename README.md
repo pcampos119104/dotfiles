@@ -32,6 +32,11 @@ Configurations for my Manjaro desktop and other applications.
 * pycharm pro
 * fish shell
 * oh-my-fish
+* toipe - https://github.com/Samyak2/toipe
+* bottom - https://github.com/ClementTsang/bottom
+* espeak - http://espeak.sourceforge.net/
+* mbrola - https://wiki.archlinux.org/title/Mbrola
+* 
 
 # Mandalorian keyboard layout #
 /# ln -sf /home/pcampos/dotfiles/mo /usr/share/X11/xkb/symbols/mo 
