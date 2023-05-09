@@ -9,26 +9,22 @@ Configurations for my Manjaro desktop and other applications.
 ### apps ###
 
 * tilix
-* Google Chrome - Download from web.
 * jq
 * bat
 * rtorrent
 * git
-* ebook-converter(calibre)
-* youtube-dl
+* calibre(ebook-converter)
+* yt-dlp
 * xclip
 * nvim
 * stow
 * ranger
 * vlc(non-free)
 * gh(github-cli)
-* playonlinux
 * docker
 * docker-compose
 * pdfunite(concatenate pdf)
 * telegram
-* gcloud
-* heroku 
 * pycharm pro
 * fish shell
 * oh-my-fish
@@ -38,29 +34,19 @@ Configurations for my Manjaro desktop and other applications.
 * mbrola - https://wiki.archlinux.org/title/Mbrola
 * 
 
-# Mandalorian keyboard layout #
-/# ln -sf /home/pcampos/dotfiles/mo /usr/share/X11/xkb/symbols/mo 
-TODO Need update.
-https://ubuntu-mate.community/t/make-your-own-custom-keyboard-layout-for-linux/19733
-
 ### steps ###
 first stow the files, clone the project in ~/home and execute the command in the dotfiles folder
 $ stow stowfiles
 Update pacman
 
 /# pacman -Syu
-/# pacman -Syu fish tilix jq bat rtorrent git calibre youtube-dl xclip neovim stow ranger github-cli
+/# pacman -Syu git docker docker-compose jq bat rtorrent calibre yt-dlp xclip neovim stow ranger vlc github-cli fish tilix --noconfirm
 
 for oh my fish, https://github.com/oh-my-fish/oh-my-fish
 $ curl -L https://get.oh-my.fish | fish
 
 For Docker
-/#pacman -Syu install docker docker-compose
 $ sudo usermod -aG docker $USER
-
-Skip for now
-install vim-plug: https://github.com/junegunn/vim-plug
-open nvim and type :PlugInstall and :PlugUpdate
 
 ### Config ###
 Config ssh for github:
