@@ -7,17 +7,34 @@ nmap <leader>q :action HideAllWindows<cr>
 " Alt + enter
 nmap <leader>i :action ShowIntentionActions<cr>
 " Paste from clipboard
-" nmap <leader>v :action EditorPaste<cr>
-nmap <leader>v :action EditorPasteSimple<cr>
+nmap <leader>p :action PasteMultiple<cr>
 " Auto format file
 nmap <leader>l :action ReformatCode<cr>
 " Del arround block
 
+
+" Bookmarks
+nmap <leader>m :action ToggleBookmarkWithMnemonic<cr>
+
+nmap <leader>0 :action GotoBookmark0<cr>
+nmap <leader>1 :action GotoBookmark1<cr>
+nmap <leader>2 :action GotoBookmark2<cr>
+nmap <leader>3 :action GotoBookmark3<cr>
+nmap <leader>4 :action GotoBookmark4<cr>
+nmap <leader>5 :action GotoBookmark5<cr>
+nmap <leader>6 :action GotoBookmark6<cr>
+nmap <leader>7 :action GotoBookmark7<cr>
+nmap <leader>8 :action GotoBookmark8<cr>
+nmap <leader>9 :action GotoBookmark9<cr>
 " Rename
 nmap <leader>r :action RemoteHostView.Rename<cr>
+
 " set relativenumber
 set relativenumber
 set number
+
+" set NERDTree
+set NERDTree
 
 " Commit
 
@@ -25,9 +42,14 @@ set number
 
 " Goto Implementation
 nmap <leader>b :action GotoImplementation<cr>
+
+" todo add ESC command
 " Upercase word
 nmap <leader>u :action EditorToggleCase<cr>
+
 " Change tab
 
+" Copy to clipboard
+set clipboard=unnamedplus
 
 set scrolloff=8
